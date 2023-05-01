@@ -16,6 +16,7 @@ describe ('My first test',() => {
         // assertion
         cy.url().should("include", "/commands/actions")
         cy.get('div.container h1').should('have.text', 'Actions')
+        // branch2
+        //branch1
     })
-    //branch1
 })
